@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">The woah keyboard</h1>
+    <div class="clickboxes">
+        <div id="box1" class="box1 box"><h1 class="letters">q</h1></div>
+        <div id="box2" class="box2 box"><h1>a</h1></div>
+        <div id="box3" class="box3 box"><h1>w</h1></div>
+        <div id="box4" class="box4 box"><h1>s</h1></div>
+        <div id="box5" class="box5 box"><h1>e</h1></div>
+        <div id="box6" class="box6 box"><h1>d</h1></div>
+        <div id="box7" class="box7 box"><h1>r</h1></div>
+        <div id="box8" class="box8 box"><h1>f</h1></div>
+        <div id="box9" class="box9 box"><h1>t</h1></div>
+        <div id="box10" class="box10 box"><h1>g</h1></div>
+        <div id="box11" class="box11 box"><h1>y</h1></div>
+    </div>
+    <h1 class="title">Play some tunes</h1>
+    <div class="tunecontainer">
+    <button id="playPauseBTN" onclick="playPause()">Play Whole Hog/Hog Wild</button>
+    <button id="playPauseBTN1" onclick="playPause1()">Play CTR: N Sanity</button>
+    <button id="playPauseBTN2" onclick="playPause2()">Play CB3: Main Theme</button>
+</div>
+    <div class="tunecontainer">
+        <button id="stopBTN" onclick="stop()">Stop the hog</button>
+        <button id="stopBTN1" onclick="stop1()">Stop the Nsanity</button>
+        <button id="stopBTN2" onclick="stop2()">Stop the Bandicoot</button>
+    </div>
+    <audio src="sounds/wholehog.mp3" id="wholeHog" loop="loop"></audio>
+    <audio src="sounds/ctr-nsanity.mp3" id="nsanity" loop="loop"></audio>
+    <audio src="sounds/cb3mainmenu.mp3" id="mainmenu" loop="loop"></audio>
+    <audio src="sounds/woah-5.mp3" type="audio/mpeg" id="woah-5"></audio>
+    <audio src="sounds/woah-4.mp3" type="audio/mpeg" id="woah-4"></audio>
+    <audio src="sounds/woah-3.mp3" type="audio/mpeg" id="woah-3"></audio>
+    <audio src="sounds/woah-2.mp3" type="audio/mpeg" id="woah-2"></audio>
+    <audio src="sounds/woah-1.mp3" type="audio/mpeg" id="woah-1"></audio>
+    <audio src="sounds/woah0.mp3" type="audio/mpeg" id="woah0"></audio>
+    <audio src="sounds/woah1.mp3" type="audio/mpeg" id="woah1"></audio>
+    <audio src="sounds/woah2.mp3" type="audio/mpeg" id="woah2"></audio>
+    <audio src="sounds/woah3.mp3" type="audio/mpeg" id="woah3"></audio>
+    <audio src="sounds/woah4.mp3" type="audio/mpeg" id="woah4"></audio>
+    <audio src="sounds/woah5.mp3" type="audio/mpeg" id="woah5"></audio>
+<script src="app.js"></script>
+</body>
+</html>
